@@ -1,4 +1,4 @@
-Claude Code restores skills read by subagents when compacting. If the total number of skill tokens read by all subagents is > context limit, a compaction will result in >100% context utilization and further messages will error.
+Claude Code reads skills loaded by subagents into the main agent when compacting. If the total number of skill tokens read by all subagents is > context limit, a compaction will result in >100% context utilization and further messages will error.
 
 To reproduce (as of v2.1.39):
 
